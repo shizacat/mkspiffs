@@ -66,7 +66,7 @@ $ git submodule update --init
 $ make dist
 ```
 
-## SPIFFS configuration
+### SPIFFS configuration
 
 Some SPIFFS options which are set at mkspiffs build time affect the format of the generated filesystem image. Make sure such options are set to the same values when builing mkspiffs and when building the application which uses SPIFFS.
 
